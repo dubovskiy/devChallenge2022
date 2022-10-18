@@ -1,0 +1,105 @@
+.wrapper{
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header{
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.contentWrapper{
+    display: flex;
+}
+
+.countPane{
+    width: 300px
+}
+
+.map{
+    width: calc(100% - 400px);
+}
+
+.map > div {
+    max-width: 100%;
+}
+
+.footer{
+    width: 100%;
+}
+
+.columns{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-wrap: nowrap;
+}
+
+.column{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    width: 1%;
+    padding-right: 1px;
+    cursor: pointer;
+}
+
+.column div{
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+}
+
+.column:hover div{
+    background-color: #999;
+}
+
+
+.column.active div{
+    background-color: #595959;
+}
+
+.timeline{
+    width: 100%;
+}
+
+.eventDate {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+}
+
+.map{
+}
+
+.map canvas{
+    width: 100%;
+    height: 100%;
+}
+
+.countPane > div{
+    margin-bottom: 20px;
+}
+
+.affectValue{
+    font-size: 60px;
+}
+
+.btnPlace{
+    display: flex;
+    align-items: flex-end;
+}
+
+.btnPlace > button {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
