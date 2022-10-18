@@ -9,7 +9,7 @@ export const STEP_ANIMATION_TIME = 500;
 export const FIRST_STEP_ANIMATION_TIME = 3000;
 export const PLAY = '&#9658;';
 export const PAUSE = '&#x275A;&#x275A;';
-const MAP_URL = "../assets/ukraine.svg";
+const MAP_URL = "./assets/ukraine.svg";
 export const POINT_RADIUS = 5;
 
 export const UKRAINE_RECT = {
